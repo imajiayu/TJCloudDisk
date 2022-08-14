@@ -1,0 +1,31 @@
+
+├── node_modules
+│   └── ...... //安装的包依赖
+├── package.json
+├── public
+│   ├── favicon.ico
+│   └── logo_v.png
+├── README.md         //使用说明
+├── src
+│   ├── App.vue
+│   ├── assets        //静态资源
+│   │   ├── dog.png
+│   │   ├── logo_h.png
+│   │   └── logo_v.png
+│   ├── components    //组件
+│   │   ├── 404.vue
+│   │   ├── ForgetPassword.vue  //忘记密码
+│   │   ├── Header.vue          //顶部导航栏
+│   │   ├── Login.vue           //登录
+│   │   ├── Register.vue        //注册
+│   │   ├── Revise.vue          //修改信息
+│   │   ├── ShareSpace.vue      //分享页面
+│   │   └── UserSpace.vue       //个人空间
+│   ├── main.js                 //创建app
+│   ├── package.json
+│   ├── router
+│   │   └── index.js            //路由
+│   └── views
+├── jsconfig.json
+└── vue.config.js               //全局设置
+
